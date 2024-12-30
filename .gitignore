@@ -50,12 +50,29 @@
 *.hpp
 *Resource.rc
 
+# Lazarus autogenerate files
+*.bak
+*.obj
+*.ppu
+*.compiled
+*.lps
+*.o
+
+# others files
+*.res
+*.ico
+
 # Delphi local files (user-specific info)
 *.local
 *.identcache
 *.projdata
 *.tvsconfig
 *.dsk
+
+# Lazarus history and backup
+lib/
+backup/
+
 
 # Delphi history and backups
 __history/

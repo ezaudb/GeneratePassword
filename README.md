@@ -1,6 +1,6 @@
 # GeneratePassword
 
-GeneratePassword é uma classe Delphi para gerar senhas personalizadas de maneira simples e eficiente. Ela permite configurar o comprimento da senha e os tipos de caracteres que serão incluídos, como números, letras maiúsculas/minúsculas e símbolos.
+GeneratePassword é uma classe Delphi / Lazarus para gerar senhas personalizadas de maneira simples e eficiente. Ela permite configurar o comprimento da senha e os tipos de caracteres que serão incluídos, como números, letras maiúsculas/minúsculas e símbolos.
 
 ## Funcionalidades
 
@@ -15,7 +15,7 @@ GeneratePassword é uma classe Delphi para gerar senhas personalizadas de maneir
 ## Como Usar
 ```delphi
 uses
-  untGeneratePassword, System.SysUtils;
+  untGeneratePassword, SysUtils;
 
 var
   PasswordGen: TGeneratePassword;
@@ -42,5 +42,6 @@ end;
 
 **Delphi:** Testado no Delphi 11.
 
+**Lazarus:** Testado no Lazarus 3.2
 
-**Classes:** System.SysUtils (inclusa por padrão no Delphi).
+**Classes:** SysUtils
