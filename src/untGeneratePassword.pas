@@ -52,12 +52,12 @@ var
   Char: String;
 begin
   if FSize <= 0 then
-    raise Exception.Create(UTF8Encode('Informe um Tamanho Válido Para o Password'));
+    raise Exception.Create('Informe um Tamanho Válido Para o Password');
 
   Char := GetCaracter;
 
   if Char.IsEmpty then
-    raise Exception.Create(UTF8Encode('Informe os Caracteres Para o Password'));
+    raise Exception.Create('Informe os Caracteres Para o Password');
 
   Result := EmptyStr;
   for I := 0 to Pred(FSize) do
